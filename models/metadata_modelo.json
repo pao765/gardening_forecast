@@ -1,0 +1,19 @@
+{
+  "algoritmo": "Random Forest",
+  "usa_clima": true,
+  "usa_log": false,
+  "columnas_numericas": [
+    "mean_temp",
+    "mean_humid",
+    "mean_prec_height_mm",
+    "total_prec_height_mm",
+    "mean_sun_dur_min",
+    "total_sun_dur_h",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7",
+    "rolling_mean_14"
+  ],
+  "horizonte_dias": 7,
+  "mae_validacion": 169.73
+}
