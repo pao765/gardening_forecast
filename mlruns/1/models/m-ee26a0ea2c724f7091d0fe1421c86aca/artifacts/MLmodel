@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/ASUS TUF A15/project_horticola/forecast_project/mlruns/1/models/m-ee26a0ea2c724f7091d0fe1421c86aca/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-ee26a0ea2c724f7091d0fe1421c86aca
+model_size_bytes: 13416746
+model_uuid: m-ee26a0ea2c724f7091d0fe1421c86aca
+prompts: null
+run_id: 61a86f7f44ca4baf8c4739640813ed27
+utc_time_created: '2026-09-15 20:55:17.857528'

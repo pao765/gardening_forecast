@@ -1,0 +1,72 @@
+# ============================================
+# .dockerignore
+# Archivos que Docker NO debe copiar a la imagen
+# ============================================
+
+# --- Entorno virtual ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# --- Tests y calidad ---
+.pytest_cache/
+.ruff_cache/
+
+# --- Git ---
+.git/
+.gitignore
+
+# --- DVC (no se necesita dentro del contenedor) ---
+.dvc/
+
+# --- Datos grandes ---
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# --- MLflow ---
+mlflow.db
+mlruns/
+
+# --- Jupyter ---
+notebooks/
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Documentación ---
+docs/
+references/
+reports/
+
+# --- Tests ---
+tests/
+
+# --- Credenciales y configuración local ---
+.env
+.dvc/config.local
+gcp-credentials.json
+
+# --- Backups ---
+requirements_backup.txt
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+*.temp
